@@ -93,8 +93,8 @@ def summarize_with_doubao(text):
         return "近期暂未获取到新的论文更新哦。"
     
     client = OpenAI(
-        api_key=DOUBAO_API_KEY,
-        base_url="https://ark.cn-beijing.volces.com/api/v3",
+    api_key=DOUBAO_API_KEY,
+    base_url="https://api.deepseek.com",
     )
     
     prompt = f"""
